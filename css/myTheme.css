@@ -1,0 +1,82 @@
+.box-left{
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    width: 400px;
+    height: 100vh;
+    background-color: #f9a8b6;
+    box-shadow: 0px 0px 10px 0px #f9a8b6;
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.box-left>h1{
+    filter: drop-shadow(0px 0px 2px white);
+    font-family: 'Kanit', sans-serif;
+}
+.box-right{
+    padding: 10px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    margin-left: 400px;
+    height: 100vh;
+    background-color: white;
+    z-index: 0;
+}
+
+.box-image{
+    position: absolute;
+    z-index: 3;
+    border-radius: 50px;
+    margin-top:150px;
+    margin-left: 250px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    background-image: linear-gradient(to right, white 50% , #f9a8b6 50%);
+    border-radius: 50% ;
+    padding: 10px;
+    box-shadow: 0px 0px 7px  white  ,0px 0px 7px white ,0px 0px 10px #f9a8b6,0px 0px 10px #f9a8b6;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out; 
+}
+.box-image > img{
+    border-radius: 50%;
+}
+.box-image:hover{
+    transform:rotate(10deg);
+}
+
+.inline{
+    display: inline-block;
+}
+.top-menu{
+   margin-left:250px;
+}
+.menu{
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color: black;
+    filter: drop-shadow(0px 0px 1px black);
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+}
+.menu:hover{
+    filter: drop-shadow(0px 0px 1px white);
+    border-radius: 30px;
+    background-color: #fd6c85;
+    box-shadow: 0px 0px 10px #fd6c85;
+    color: white;
+}
+.name-center{
+    margin-top: 160px;
+    margin-left: 300px;
+    font-size: 100px;
+    font-family: 'Kanit', sans-serif;
+}
